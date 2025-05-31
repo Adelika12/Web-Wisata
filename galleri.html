@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Album</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Responsive for smaller screens */
+    @media (max-width: 600px) {
+      .gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 400px) {
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Album</h1>
+  <div class="gallery">
+    <img src="images/jlm2.jpg" alt="Foto 1" />
+    <img src="images/jlm 22.jpg" alt="Foto 2" />
+    <img src="images/jlm3.jpg" alt="Foto 3" />
+    <img src="images/vdb1.png" alt="Foto 4" />
+    <img src="images/benteng-vredeburg-malam.jpg" alt="Foto 5" />
+    <img src="images/vdb2.jpg" alt="Foto 6" />
+    <img src="images/kyi.jpeg" alt="Foto 7" />
+    <img src="images/kyi3.jpeg" alt="Foto 8" />
+    <img src="images/kyi (2).jpeg" alt="Foto 9" />
+  </div>
+<button type="button"><a href="index.html">Kembali</a></button>
+</body>
+</html>

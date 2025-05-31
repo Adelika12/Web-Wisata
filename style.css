@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+.nav{
+    color: whitesmoke;
+    background-color: black; 
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav a{
+    color: whitesmoke;
+}
+
+.nav li{
+    padding: 5px;
+    border-radius: 30px;
+}
+.nav li:hover{
+    background-color: rgb(49, 114, 151);
+}
+
+.logo h2 img{
+    width: 60px;
+    height: 30px;
+}
+.data-list{
+    margin-left: 40%;
+}
+
+.data-list li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.fa-caret-down{
+    transform: rotate(-0deg);
+    transition: 400ms;
+
+
+}
+.Destinasi:hover .fa-caret-down{
+    transform: rotate(-90deg)
+
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.list{
+display: none;
+    background-color: black;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    color:black;
+
+}
+
+.list li{
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.data-list a{
+    text-decoration: none;
+}
+
+.Destinasi:hover .list{
+    display: block;
+
+}
+
+
+/* header */
+.header{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.des-header{
+    width: 65%;
+    margin: auto;
+}
+
+.des-header h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+    width: 90%;
+    color: rgb(44, 119, 163)
+    
+}
+
+.gambar {
+    width:80%;
+    height: 100vh;
+
+}
+
+.gambar img{
+    width: 100%;
+    height: 100%;
+}
+
+/* bg card=== */
+.bg-card{
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.card{
+    margin: auto;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px grey;
+    transition: 300ms;
+}
+.gambar-card{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.gambar-card img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.des-card{
+    padding: 5px;
+    padding-left:  15px; 
+    padding-bottom: 15px;
+}
+
+.des-card h2{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.des-card p{
+    color: black;
+    line-height: 25px;
+}
+
+.bg-card a{
+    text-decoration: none;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*container*/
+
+.container{
+    
+    width: 70%;
+    margin: auto;
+}
+
+/*containerdone*/
+
+/*content*/
+
+.content h2{
+    color: rgb(44, 119, 163);
+    margin-bottom: 10px;
+
+}
+
+.content p{
+    color: #666666;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.content img{
+    margin-bottom: 30px
+}
+
+/*contentdone*/
+
+.guestbook {
+padding: 50px 0 100px;
+}
+
+.guestbook-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.guestbook-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.guestbook-form input[type="text"],
+.guestbook-form input[type="email"],
+.guestbook-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.guestbook-form button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.guestbook-form button:hover {
+  background-color: var(--dark-color);
+}
+
+
+/*footer==*/
+
+.bg-footer{
+    height: 20vh;
+    background-color: black;
+    text-align:center;
+    color:whitesmoke;
+    padding-top:10vh
+}
